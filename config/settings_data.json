@@ -397,7 +397,7 @@
   "platform_customizations": {
     "custom_css": [
       ".card-container {display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; \/* Adjust the gap value to set the spacing between the cards *\/ margin: 0 -10px; \/* Add negative margin to remove the default spacing and fill the entire width *\/}",
-      ".card {flex-basis: calc((100% - (3 * 20px)) \/ 3); \/* Adjust the calculation to set the width of each card *\/ background-color: #f0f0f0; padding: 20px; margin-bottom: 20px; text-align: center;}",
+      ".card {flex-basis: calc( (100% - (3 * 20px)) \/ 3 ); \/* Adjust the calculation to set the width of each card *\/ background-color: #f0f0f0; padding: 20px; margin-bottom: 20px; text-align: center;}",
       ".card img {width: 100%; max-width: 200px; \/* Adjust the max-width as needed *\/ height: auto;}",
       ".card h2 {font-size: 20px; margin-top: 10px;}",
       ".card p {font-size: 16px; margin-top: 10px;}",

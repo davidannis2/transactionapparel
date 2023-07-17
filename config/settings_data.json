@@ -403,7 +403,11 @@
       ".card p {font-size: 16px; margin-top: 10px; flex-grow: 1; \/* Allow the description to grow and fill the remaining space *\/}",
       ".card .button {display: flex; align-items: center; justify-content: center; background-color: #ea7af4; color: #ffffff; padding: 10px 20px; text-decoration: none; border: none !important; \/* Remove the border *\/ text-align: center; \/* Center-justify the text *\/ height: 50px; \/* Set a fixed height for the button *\/ line-height: 1; \/* Reset the line-height to ensure proper vertical alignment *\/ transition: transform 0.2s ease-in-out; \/* Add transition for smooth scaling *\/}",
       ".card .button:hover {transform: scale(1.02); \/* Scale up the button by 2% on hover *\/}",
-      "\/* ARTIST PROFILES *\/"
+      "\/* ARTIST PROFILES *\/.artist-profile {display: flex; align-items: flex-start;}",
+      ".profile-content {flex-grow: 1;}",
+      ".profile-image {flex-shrink: 0; width: 33.33%; margin-left: 20px; \/* Adjust the margin-left for spacing between the image and content *\/ display: flex; align-items: flex-start; justify-content: flex-end;}",
+      ".profile-image img {width: 100%; height: auto; border-radius: 50%; object-fit: cover; \/* Ensure the image fills the circular crop *\/}",
+      ".subsections {display: flex; flex-direction: column; gap: 10px; }"
     ]
   }
 }

@@ -401,8 +401,8 @@
       ".card img {width: 100%; max-width: 200px; \/* Adjust the max-width as needed *\/ height: auto;}",
       ".card h2 {font-size: 20px; margin-top: 10px;}",
       ".card p {font-size: 16px; margin-top: 10px; flex-grow: 1; \/* Allow the description to grow and fill the remaining space *\/}",
-      ".card .button {display: flex; align-items: center; justify-content: center; background-color: #EA7AF4; color: #ffffff; padding: 10px 20px; text-decoration: none; border: none; \/* Remove the border *\/}",
-      ".card .button:hover {background-color: #ffffff; color: #EA7AF4; border: 2px solid #EA7AF4; \/* Add border on hover *\/}"
+      ".card .button {display: flex; align-items: center; justify-content: center; background-color: #ea7af4; color: #ffffff; padding: 10px 20px; text-decoration: none; border: none !important; \/* Remove the border *\/}",
+      ".card .button:hover {background-color: #ffffff; color: #ea7af4; border: 2px solid #ea7af4; \/* Add border on hover *\/}"
     ]
   }
 }

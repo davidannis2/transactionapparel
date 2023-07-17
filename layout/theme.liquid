@@ -9,10 +9,7 @@
   <style>
   @font-face {
     font-family: 'Nexa Rust Black';
-    src: url('{{ 'nexa-rust.sans-black.otf' | asset_url }}');
-  h1 {
-  font-family: 'Nexa Rust Black', sans-serif;
-}
+    src: url('{{ 'NexaRustSans-Black.woff' | asset_url }}');
   }
 </style>
     {%- if settings.favicon != blank -%}
@@ -269,6 +266,12 @@
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
+<style>
+  @font-face {
+    font-family: 'Nexa Rust Sans Black';
+    src: url('{{ 'nexa-rust.sans-black.otf' | asset_url }}');
+  }
+</style>
 
   </head>
 

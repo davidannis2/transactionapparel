@@ -3323,7 +3323,7 @@ details-disclosure > details {
     --sparkle: url('./sparkle.gif');
   }
 }
-
+/*
 .button,
 .secondary-button,
 .tertiary-button {
@@ -3331,7 +3331,7 @@ details-disclosure > details {
   color: #FFFFFF;
   font-family: "Cooper BT", sans-serif;
   font-weight: bold;
-  /* Add more styles as needed */
+  /* Add more styles as needed
 }
 
 .button:hover {

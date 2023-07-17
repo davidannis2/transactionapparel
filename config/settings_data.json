@@ -396,12 +396,12 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".card-container {display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; \/* Adjust the gap value to set the spacing between the cards *\/ margin: 0 -10px; \/* Add negative margin to remove the default spacing and fill the entire width *\/}",
-      ".card {flex-basis: calc( (100% - (3 * 20px)) \/ 3 ); \/* Adjust the calculation to set the width of each card *\/ background-color: #f0f0f0; padding: 20px; margin-bottom: 20px; text-align: center;}",
+      ".card-container {display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; \/* Adjust the gap value to set the spacing between the cards *\/}",
+      ".card {flex-basis: calc(33.33% - 20px); \/* Adjust the calculation to set the width of each card *\/ display: flex; flex-direction: column; background-color: #f0f0f0; padding: 20px; margin-bottom: 20px;}",
       ".card img {width: 100%; max-width: 200px; \/* Adjust the max-width as needed *\/ height: auto;}",
       ".card h2 {font-size: 20px; margin-top: 10px;}",
-      ".card p {font-size: 16px; margin-top: 10px;}",
-      ".card .button {display: inline-block; background-color: #000000; color: #ffffff; padding: 10px 20px; text-decoration: none; margin-top: 10px;}"
+      ".card p {font-size: 16px; margin-top: 10px; flex-grow: 1; \/* Allow the description to grow and fill the remaining space *\/}",
+      ".card .button {display: flex; align-items: center; justify-content: center; background-color: #000000; color: #ffffff; padding: 10px 20px; text-decoration: none;}"
     ]
   }
 }

@@ -6,12 +6,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="">
     <link rel="canonical" href="{{ canonical_url }}">
-  <style>
-  @font-face {
-    font-family: 'Nexa Rust Black';
-    src: url('{{ 'NexaRustSans-Black.woff' | asset_url }}');
-  }
-</style>
+
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
     {%- endif -%}
@@ -268,8 +263,11 @@
     </script>
 <style>
   @font-face {
-    font-family: 'Nexa Rust Sans Black';
-    src: url('{{ 'nexa-rust.sans-black.otf' | asset_url }}');
+    font-family: 'NexaRustSans-Black.woff';
+    src: url('{{ 'NexaRustSans-Black.woff' | asset_url }}');
+  }
+  h1 {
+    font-family: 'NexaRustSans-Black.woff', sans-serif;
   }
 </style>
 

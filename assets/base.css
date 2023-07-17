@@ -1187,7 +1187,25 @@ deferred-media {
   --alpha-button-border: 0.2;
 }
 
-.button,
+.button {
+  background-color: #EA7AF4;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-family: "Cooper BT", sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #FFFFFF;
+  color: #080908;
+  border: 2px solid #080908;
+}
 .shopify-challenge__button,
 .customer button,
 button.shopify-payment-button__button--unbranded,
@@ -1234,7 +1252,7 @@ button.shopify-payment-button__button--unbranded {
   font: inherit;
   font-size: 1.5rem;
   text-decoration: none;
-  background-color: #EA7AF4;
+  color: rgb(var(--color-button-text));
   transition: box-shadow var(--duration-short) ease;
   -webkit-appearance: none;
   appearance: none;

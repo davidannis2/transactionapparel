@@ -396,8 +396,8 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".card-container {display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); grid-gap: 20px;}",
-      ".card {background-color: #f0f0f0; padding: 20px; margin-bottom: 20px;}",
+      ".card-container {display: flex; flex-wrap: wrap; justify-content: center;}",
+      ".card {flex-basis: calc(33.33% - 20px); background-color: #f0f0f0; padding: 20px; margin-bottom: 20px; text-align: center;}",
       ".card img {width: 100%; max-width: 200px; \/* Adjust the max-width as needed *\/ height: auto;}",
       ".card h2 {font-size: 20px; margin-top: 10px;}",
       ".card p {font-size: 16px; margin-top: 10px;}",

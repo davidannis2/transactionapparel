@@ -262,10 +262,14 @@
       }
     </script>
 <style>
-  @font-face {
-    font-family: 'NexaRustSans-Black.woff';
-    src: url('{{ 'NexaRustSans-Black.woff' | asset_url }}');
-  }
+@font-face {
+    font-family: 'Nexa Rust Sans';
+    src: url('NexaRustSans-Black.woff2') format('woff2'),
+        url('NexaRustSans-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
   h1 {
     font-family: 'NexaRustSans-Black.woff', sans-serif;
   }

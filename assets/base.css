@@ -3324,7 +3324,9 @@ details-disclosure > details {
   }
 }
 
-.button {
+.button,
+.secondary-button,
+.tertiary-button {
   background-color: #EA7AF4;
   color: #FFFFFF;
   font-family: "Cooper BT", sans-serif;

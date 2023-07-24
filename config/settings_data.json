@@ -117,6 +117,10 @@
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/transaction-wolf-logo.png",
+    "checkout_logo_position": "center",
+    "checkout_accent_color": "#6200b3",
+    "checkout_button_color": "#fcba04",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
